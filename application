@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application – Rainbow Preschool</title>
+</head>
+<body>
+  <header>
+    <h1>Application</h1>
+  </header>
+  <main>
+    <section>
+      <p>If you wish to join our Rainbow family, please fill in our application form and send a message to <a href="mailto:admissions@rainbow-preschool.de">admissions@rainbow-preschool.de</a>. We will reply as soon as possible.</p>
+    </section>
+    <section>
+      <h2>Fees</h2>
+      <ul>
+        <li>€120 monthly membership fee</li>
+        <li>€65–75 monthly food fee (lunch and drinks)</li>
+        <li>€0 childcare fee (supported by the City of Munich under the EKI Plus model)</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Rainbow Preschool</p>
+  </footer>
+</body>
+</html>
