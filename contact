@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Rainbow Preschool</title>
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+  </header>
+  <main>
+    <section>
+      <address>
+        Rainbow Preschool<br>
+        Munich, Germany<br>
+        Email: <a href="mailto:info@rainbow-preschool.de">info@rainbow-preschool.de</a><br>
+        Phone: +49 89 123456
+      </address>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Rainbow Preschool</p>
+  </footer>
+</body>
+</html>
