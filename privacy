@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Datenschutz – Rainbow Preschool</title>
+</head>
+<body>
+  <header>
+    <h1>Datenschutzerklärung</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Allgemeine Hinweise</h2>
+      <p>Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Diese Website erhebt Daten zur Bereitstellung und Analyse des Nutzerverhaltens.</p>
+    </section>
+
+    <section>
+      <h2>Verantwortliche Stelle</h2>
+      <p>Rainbow Preschool e.V.<br>
+      Josef-Retzer-Str. 46<br>
+      81241 München<br>
+      Telefon: +49 89 - 82 97 90 03<br>
+      E-Mail: <a href="mailto:info@rainbow-preschool.de">info@rainbow-preschool.de</a></p>
+    </section>
+
+    <section>
+      <h2>Ihre Rechte</h2>
+      <ul>
+        <li>Auskunft über gespeicherte Daten</li>
+        <li>Berichtigung oder Löschung</li>
+        <li>Widerruf der Einwilligung</li>
+        <li>Beschwerderecht bei der Aufsichtsbehörde</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Rainbow Preschool</p>
+  </footer>
+</body>
+</html>
