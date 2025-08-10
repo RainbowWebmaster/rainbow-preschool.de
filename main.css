@@ -72,12 +72,16 @@ p {
 }
 
 /* === Lists === */
-dl, ul {
+ul {
   padding-left: 1.5rem;
 }
 
 dd, li {
   margin-bottom: 0.5rem;
+}
+
+dt {
+  font-weight: bold;
 }
 
 /* === Links === */
