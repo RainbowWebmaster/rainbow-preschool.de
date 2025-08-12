@@ -109,8 +109,32 @@ main {
   max-width: 1300px;
 }
 
+body#about-montessori, body#gallery {
+  background-color: #fdfbe6;
+}
+
 body#about-us {
   background-color: #ffedd5;
+}
+
+body#application, body#imprint, body#privacy, body#jobs {
+  background-color: #f6e3ed;
+}
+
+body#contact {
+  background-color: #eef6fa;
+}
+
+body#teachers {
+  background-color: #f1f5e4;
+}
+
+body#home section#hours {
+  background-color: #ebbe40;
+}
+
+body#home section#welcome {
+  background-color: #d5eaea;
 }
 
 section {
