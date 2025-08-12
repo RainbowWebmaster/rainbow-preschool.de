@@ -65,11 +65,12 @@ h4 {
 nav {
   margin: 0 auto;
   max-width: 1300px;
-  padding: 3.5rem 1rem;
+  padding: 4rem 1rem;
   background-image: url("images/header-logo.png");
   background-repeat: no-repeat;
   background-size: 9rem;
   background-position: 1rem center;
+  font-size: 1.2rem
 }
 
 nav a {
@@ -81,7 +82,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
-  gap: 2rem;
+  gap: 2.3rem;
 }
 
 nav li {
