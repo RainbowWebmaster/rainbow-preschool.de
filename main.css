@@ -21,9 +21,10 @@ body {
   font-size: 1rem;
   line-height: 1.65em;
   font-weight: bold;
-  background-image: url("images/clouds.png");
+  background-image: url("images/clouds.png"), url("images/footer.png");
   background-repeat: repeat-x;
-  background-position-y: 7rem;
+  background-position-y: 7rem, bottom;
+  background-size: auto, cover;
 }
 
 /* === Header & Navigation === */
