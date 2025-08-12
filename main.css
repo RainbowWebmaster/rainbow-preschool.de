@@ -37,7 +37,7 @@ h1 {
   border-bottom-color: #000;
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
-  line-height: 1.4em
+  line-height: 1.4em;
 }
 
 h2 {
@@ -71,7 +71,6 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #0170b9;
-  font-weight: 600;
 }
 
 nav a:hover {
@@ -144,17 +143,5 @@ footer p {
   nav ul {
     flex-direction: column;
     align-items: center;
-  }
-
-  body {
-    padding: 0.5rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.25rem;
   }
 }
