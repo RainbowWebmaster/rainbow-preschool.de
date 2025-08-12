@@ -119,13 +119,11 @@ footer {
   padding: 3rem 2rem;
   font-size: 1rem;
   color: #fff;
-  display: block;
-  margin: 0 auto;
-  max-width: 1300px;
 }
 
 footer p {
-  margin-bottom: 0;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 /* === Responsive === */
