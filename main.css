@@ -85,10 +85,10 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #0170b9;
+  color: #4b4f58;
 }
 
-nav a.current {
+nav li#current-nav-item a {
   color: #0170b9;
 }
 
