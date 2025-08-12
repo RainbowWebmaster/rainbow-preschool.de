@@ -22,7 +22,6 @@ body {
   line-height: 1.65em;
   font-weight: bold;
   background-image: url("images/clouds.png");
-  background-position: top;
   background-repeat: repeat-x;
   background-position-y: 7rem;
 }
@@ -196,6 +195,10 @@ footer {
   font-size: 1rem;
   color: #fff;
   font-weight: normal;
+  background-image: url("images/footer.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: cover;
 }
 
 footer p {
