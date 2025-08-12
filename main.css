@@ -26,8 +26,7 @@ body {
 /* === Header & Navigation === */
 header {
   background-color: #fff;
-  background-image: url("images/header-logo.png");
-  padding: 3.5rem 1rem;
+  padding: 0 1rem;
   text-align: center;
   font-weight: normal;
 }
@@ -66,10 +65,15 @@ h4 {
 nav {
   margin: 0 auto;
   max-width: 1300px;
+  padding: 3.5rem 1rem;
+  background-image: url("images/header-logo.png");
+  background-repeat: no-repeat;
+  background-size: 9rem;
+  background-position: 1rem center;
 }
 
 nav a {
-  color: #4b4f58
+  color: #4b4f58;
 }
 
 nav ul {
@@ -78,6 +82,10 @@ nav ul {
   flex-wrap: wrap;
   justify-content: right;
   gap: 2rem;
+}
+
+nav li {
+  margin: auto 0;
 }
 
 nav a {
