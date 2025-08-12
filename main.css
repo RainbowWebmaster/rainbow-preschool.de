@@ -11,7 +11,7 @@ html {
   line-height: 1.6;
   scroll-behavior: smooth;
   background-color: #ffffff;
-  color: #333;
+  color: #4b4f58;
 }
 
 /* === Layout === */
@@ -29,25 +29,29 @@ header {
 
 h1 {
   font-size: 2.5rem;
-  color: #2a7abf;
+  color: #3a3a3a;
   margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 2rem;
-  color: #2a7abf;
+  color: #83c7ce;
   margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #2a7abf;
+  color: #3a3a3a;
   margin-bottom: 1rem;
 }
 
 h4 {
   font-size: 1.25rem;
-  color: #2a7abf;
+  color: #3a3a3a;
   margin-bottom: 1rem;
 }
 
@@ -61,7 +65,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #2a7abf;
+  color: #0170b9;
   font-weight: 600;
 }
 
