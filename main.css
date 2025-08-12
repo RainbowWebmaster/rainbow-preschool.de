@@ -24,7 +24,7 @@ body {
   background-image: url("images/clouds.png"), url("images/footer.png");
   background-repeat: repeat-x;
   background-position-y: 7rem, bottom;
-  background-size: auto, cover;
+  background-size: auto, contain;
 }
 
 /* === Header & Navigation === */
