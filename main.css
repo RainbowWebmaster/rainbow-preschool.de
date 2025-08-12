@@ -87,7 +87,7 @@ main {
   max-width: 1300px;
 }
 
-body.about-us main {
+body#about-us main {
   background-color: #ffedd5;
 }
 
@@ -119,6 +119,10 @@ a {
 
 a:hover {
   color: #1a5a8f;
+}
+
+img#page-logo {
+  margin: 2.5rem 0;
 }
 
 /* === Address Block === */
