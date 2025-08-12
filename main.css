@@ -16,16 +16,15 @@ html {
 
 /* === Layout === */
 body {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 /* === Header & Navigation === */
 header {
-  background-color: #e6f2ff;
+  background-color: #fff;
   padding: 2rem 1rem;
   text-align: center;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 h1 {
@@ -73,6 +72,8 @@ nav a:hover {
 /* === Main Content === */
 main {
   padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 section {
@@ -115,11 +116,12 @@ address {
 footer {
   background-color: #3a3a3a;
   text-align: center;
-  padding: 1rem;
+  padding: 3rem 2rem;
   font-size: 0.875rem;
   color: #fff;
   display: block;
-  margin: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 /* === Responsive === */
