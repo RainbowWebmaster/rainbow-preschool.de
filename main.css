@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Dosis', "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   scroll-behavior: smooth;
@@ -15,7 +15,7 @@ html {
 }
 
 /* === Layout === */
-body {
+main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
@@ -113,11 +113,13 @@ address {
 
 /* === Footer === */
 footer {
-  background-color: #f0f8ff;
+  background-color: #3a3a3a;
   text-align: center;
   padding: 1rem;
   font-size: 0.875rem;
-  color: #666;
+  color: #fff;
+  display: block;
+  margin: 3rem 2rem;
 }
 
 /* === Responsive === */
