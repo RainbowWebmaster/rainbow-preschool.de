@@ -129,6 +129,10 @@ body#teachers {
   background-color: #f1f5e4;
 }
 
+body#home h1 {
+  display: none;
+}
+
 body#home section#hours {
   background-color: #ebbe40;
 }
