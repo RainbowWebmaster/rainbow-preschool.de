@@ -38,7 +38,7 @@ header {
 h1 {
   font-size: 2.5rem;
   color: #3a3a3a;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   text-transform: uppercase;
   border-bottom-color: #000;
   border-bottom-width: 0.1em;
@@ -49,9 +49,8 @@ h1 {
 h2 {
   font-size: 2.5rem;
   color: #83c7ce;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-transform: uppercase;
-  padding-bottom: 0.75em;
 }
 
 h3 {
@@ -125,6 +124,10 @@ body#application, body#imprint, body#privacy, body#jobs {
   background-color: #f6e3ed;
 }
 
+body#imprint h2, body#privacy h2 {
+  color: #3a3a3a;
+}
+
 body#contact {
   background-color: #eef6fa;
 }
@@ -176,7 +179,7 @@ a:hover {
 }
 
 img#page-logo {
-  margin: 2.5rem 0;
+  margin-bottom: 2.5rem;
 }
 
 /* === Address Block === */
