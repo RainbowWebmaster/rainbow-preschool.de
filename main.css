@@ -85,6 +85,10 @@ main {
   max-width: 1300px;
 }
 
+body.about-us main {
+  background-color: #ffedd5;
+}
+
 section {
   margin-bottom: 2rem;
 }
