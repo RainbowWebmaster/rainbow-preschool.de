@@ -30,6 +30,18 @@ header {
   text-align: center;
   margin: 0 auto;
   max-width: 1300px;
+
+  padding: 3rem 2rem;
+  font-weight: normal;
+}
+
+header nav {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+header nav a {
+  color: #4b4f58
 }
 
 h1 {
@@ -76,6 +88,10 @@ nav a {
   color: #0170b9;
 }
 
+nav a.current {
+  color: #0170b9;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -87,7 +103,7 @@ main {
   max-width: 1300px;
 }
 
-body#about-us main {
+body#about-us {
   background-color: #ffedd5;
 }
 
@@ -138,6 +154,7 @@ footer {
   padding: 3rem 2rem;
   font-size: 1rem;
   color: #fff;
+  font-weight: normal;
 }
 
 footer p {
