@@ -26,21 +26,9 @@ body {
 /* === Header & Navigation === */
 header {
   background-color: #fff;
-  padding: 2rem 1rem;
+  padding: 3.5rem 1rem;
   text-align: center;
-  margin: 0 auto;
-  max-width: 1300px;
-  padding: 3rem 2rem;
   font-weight: normal;
-}
-
-header nav {
-  margin: 0 auto;
-  max-width: 1300px;
-}
-
-header nav a {
-  color: #4b4f58
 }
 
 h1 {
@@ -72,6 +60,19 @@ h4 {
   font-size: 1.25rem;
   color: #3a3a3a;
   margin-bottom: 1rem;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+nav li {
+  padding: 0 1rem;
+}
+
+nav a {
+  color: #4b4f58
 }
 
 nav ul {
