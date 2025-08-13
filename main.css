@@ -63,15 +63,17 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  color: #3a3a3a;
+  color: #83c7ce;
   margin-bottom: 0.8em;
   text-transform: uppercase;
+  line-height: 1.3em;
 }
 
 h4 {
   font-size: 1.25rem;
   color: #3a3a3a;
   margin-bottom: 0.8em;
+  line-height: 1.3em;
 }
 
 nav {
