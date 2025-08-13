@@ -64,7 +64,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   color: #83c7ce;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.4em;
   text-transform: uppercase;
   line-height: 1.3em;
 }
@@ -72,7 +72,7 @@ h3 {
 h4 {
   font-size: 1.25rem;
   color: #3a3a3a;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.4em;
   line-height: 1.3em;
 }
 
@@ -139,13 +139,9 @@ body#application, body#imprint, body#privacy, body#jobs {
   background-color: #f6e3ed;
 }
 
-body#imprint h2, body#privacy h2 {
+body#imprint h2, body#privacy h2, body#imprint h3, body#privacy h3 {
   text-transform: none;
   color: #3a3a3a;
-}
-
-body#imprint h3, body#privacy h3 {
-  text-transform: none;
 }
 
 body#contact {
@@ -265,6 +261,7 @@ section#uniqueness h2 {
 
 section#uniqueness h3 {
   margin-top: 0.8em;
+  color: #3a3a3a;
 }
 
 section#uniqueness ul {
