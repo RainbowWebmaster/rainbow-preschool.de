@@ -18,7 +18,7 @@ html {
 
 /* === Layout === */
 body {
-  font-size: 1rem;
+  font-size: 18px;
   line-height: 1.65em;
   font-weight: bold;
   background-image: url("images/clouds.png"), url("images/footer.png");
@@ -135,8 +135,12 @@ body.theme-orange {
   background-color: #ffedd5;
 }
 
-body.theme-purple {
+body.theme-pink {
   background-color: #f6e3ed;
+}
+
+body.theme-pink h2 {
+  color: #e35594;
 }
 
 body.theme-blue {
@@ -317,6 +321,10 @@ ul#teachers-list {
   list-style: none;
   padding: 1rem 0;
   text-align: center;
+}
+
+ul#fees-list {
+  margin-bottom: 1.5rem;
 }
 
 dd, li {
