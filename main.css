@@ -253,6 +253,7 @@ section#uniqueness {
   float: left;
   width: 66%;
   padding: 1.2rem;
+  margin-bottom: 0;
 }
 
 section#uniqueness h2 {
@@ -262,6 +263,10 @@ section#uniqueness h2 {
 section#uniqueness h3 {
   margin-top: 0.8em;
   color: #3a3a3a;
+}
+
+section#uniqueness p {
+  margin-bottom: 0;
 }
 
 section#uniqueness ul {
