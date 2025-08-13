@@ -127,33 +127,33 @@ body#home main {
   margin: 17rem auto 0;
 }
 
-body#about-montessori, body#gallery {
+body.theme-yellow {
   background-color: #fdfbe6;
 }
 
-body#about-us {
+body.theme-orange {
   background-color: #ffedd5;
 }
 
-body#application, body#imprint, body#privacy, body#jobs {
+body.theme-purple {
   background-color: #f6e3ed;
 }
 
-body#imprint h2, body#privacy h2, body#imprint h3, body#privacy h3 {
-  text-transform: none;
-  color: #3a3a3a;
-}
-
-body#contact {
+body.theme-blue {
   background-color: #eef6fa;
 }
 
-body#teachers {
+body.theme-green {
   background-color: #f1f5e4;
 }
 
 body#home h1 {
   display: none;
+}
+
+body#imprint h2, body#privacy h2, body#imprint h3, body#privacy h3 {
+  text-transform: none;
+  color: #3a3a3a;
 }
 
 section {
@@ -308,6 +308,15 @@ p {
 /* === Lists === */
 ul {
   padding-left: 1.5rem;
+}
+
+ul#teachers-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  list-style: none;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 dd, li {
