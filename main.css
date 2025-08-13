@@ -151,7 +151,7 @@ section {
 
 section#hours {
   background-color: #ebbe40;
-  padding: 2rem 1rem;
+  padding: 1.2rem;
   background-image: url("images/orange-cloud.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -214,7 +214,7 @@ section#notices p[lang="de"] {
 
 section#welcome {
   background-color: #d5eaea;
-  padding: 2rem 1rem;
+  padding: 1.2rem;
   background-image: url("images/blue-cloud.png");
   background-repeat: no-repeat;
   background-position: bottom right;
