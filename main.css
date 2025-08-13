@@ -24,16 +24,14 @@ body {
   background-image: url("images/clouds.png"), url("images/footer.png");
   background-repeat: repeat-x, no-repeat;
   background-position-y: 7rem, bottom;
-  background-position-x: center;
+  background-position-x: 60rem, center;
   background-size: auto, contain;
 }
 
 body#home {
-  background-image: url("images/clouds.png"), url("images/homepage-banner.png"), url("images/footer.png");
-  background-repeat: repeat-x, no-repeat;
-  background-position-y: 6rem, 9rem, bottom;
-  background-position-x: center;
-  background-size: auto, 1300px, contain;
+  background-image: url("images/clouds.png"), url("images/footer.png"), url("images/homepage-banner.png");
+  background-position-y: 7rem, bottom, 9rem;
+  background-size: auto, contain, 1300px;
 }
 
 /* === Header & Navigation === */
