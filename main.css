@@ -23,16 +23,17 @@ body {
   font-weight: bold;
   background-image: url("images/clouds.png"), url("images/footer.png");
   background-repeat: no-repeat;
-  background-position-y: 8rem, 9rem, bottom;
+  background-position-y: 8rem, bottom;
   background-position-x: center;
-  background-size: 1300px, 1300px, contain;
+  background-size: 1300px, contain;
 }
 
 body#home {
   background-image: url("images/clouds.png"), url("images/homepage-banner.png"), url("images/footer.png");
-  background-repeat: repeat-x, no-repeat, repeat-x;
-  background-position-y: 7rem, 10rem, bottom;
-  background-size: auto, contain, contain;
+  background-repeat: no-repeat;
+  background-position-y: 8rem, 9rem, bottom;
+  background-position-x: center;
+  background-size: 1300px, 1300px, contain;
 }
 
 /* === Header & Navigation === */
