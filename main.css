@@ -305,6 +305,49 @@ section#uniqueness li:nth-of-type(6)::before {
   content: url("images/icon-library.png") / "Library icon";
 }
 
+section#contact-address dl {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: max-content auto;
+  row-gap: 0.5em;
+  column-gap: 1em;
+}
+
+section#contact-address dt {
+  grid-column: 1;
+}
+
+section#contact-address dt::after {
+  content: ":";
+}
+
+section#contact-address dd {
+  grid-column: 2;
+}
+
+section#contact-address {
+  float: left;
+  width: 34%;
+}
+
+section#location-map {
+  float: left;
+  width: 66%;
+}
+
+section#location-map h2 {
+  display: none;
+}
+
+section#location-map img {
+  width: 100%;
+  width: 100%
+}
+
+body#contact footer {
+  clear: both;
+}
+
 p {
   margin-bottom: 1.5rem;
 }
