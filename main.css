@@ -38,15 +38,9 @@ body#home {
 
 /* === Header & Navigation === */
 header {
+  background-color: #fff;
   padding: 0 1rem;
   font-weight: normal;
-  background-color: #fff;
-  background-image: url("images/header-logo.png");
-  background-repeat: no-repeat;
-  background-size: 9rem;
-  background-position: 1rem center;
-  max-width: 1300px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -84,8 +78,13 @@ h4 {
 }
 
 nav {
-  margin-left: auto;
+  margin: 0 auto;
+  max-width: 1300px;
   padding: 4rem 1rem;
+  background-image: url("images/header-logo.png");
+  background-repeat: no-repeat;
+  background-size: 9rem;
+  background-position: 1rem center;
   font-size: 1.2rem
 }
 
