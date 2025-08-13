@@ -21,10 +21,17 @@ body {
   font-size: 1rem;
   line-height: 1.65em;
   font-weight: bold;
-  background-image: url("images/clouds.png"), url("images/homepage-banner.png"), url("images/footer.png");
-  background-repeat: repeat-x, no-repeat, repeat-x;
-  background-position-y: 7rem, 10rem, bottom;
-  background-size: auto, contain, contain;
+  background-image: url("images/clouds.png"), url("images/footer.png");
+  background-repeat: repeat-x, repeat-x;
+  background-position-y: 7rem, bottom;
+  background-size: auto, contain;
+}
+
+body#home {
+  background-image: url("images/homepage-banner.png");
+  background-repeat: no-repeat;
+  background-position-y: 10rem;
+  background-size: contain;
 }
 
 /* === Header & Navigation === */
@@ -58,6 +65,7 @@ h3 {
   font-size: 1.5rem;
   color: #3a3a3a;
   margin-bottom: 0.8em;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -130,7 +138,12 @@ body#application, body#imprint, body#privacy, body#jobs {
 }
 
 body#imprint h2, body#privacy h2 {
+  text-transform: none;
   color: #3a3a3a;
+}
+
+body#imprint h3, body#privacy h3 {
+  text-transform: none;
 }
 
 body#contact {
@@ -150,6 +163,7 @@ section {
 }
 
 section#hours {
+  clear: both;
   background-color: #ebbe40;
   padding: 1.2rem;
   background-image: url("images/orange-cloud.png");
@@ -213,6 +227,7 @@ section#notices p[lang="de"] {
 }
 
 section#welcome {
+  float: left;
   background-color: #d5eaea;
   padding: 1.2rem;
   background-image: url("images/blue-cloud.png");
@@ -235,8 +250,47 @@ section#welcome p {
   margin-top: 1.5rem
 }
 
+section#uniqueness {
+  float: left;
+  width: 66%;
+  padding: 1.2rem;
+}
+
 section#uniqueness h2 {
   display: none;
+}
+
+section#uniqueness ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+section#uniqueness li:nth-of-type(1)::before {
+  content: url("images/icon-multicultural.png") / "Multicultural icon";
+}
+
+section#uniqueness li:nth-of-type(2)::before {
+  content: url("images/icon-food.png") / "Food icon";
+}
+
+section#uniqueness li:nth-of-type(3)::before {
+  content: url("images/icon-bus.png") / "Bus icon";
+}
+
+section#uniqueness li:nth-of-type(4)::before {
+  content: url("images/icon-schedule.png") / "Schedule icon";
+}
+
+section#uniqueness li:nth-of-type(5)::before {
+  content: url("images/celebrations.png") / "Celebrations icon";
+}
+
+section#uniqueness li:nth-of-type(6)::before {
+  content: url("images/library.png") / "Library icon";
 }
 
 p {
