@@ -335,13 +335,14 @@ section#location-map {
   width: 66%;
 }
 
-section#location-map h2 {
-  display: none;
-}
-
 section#location-map img {
   width: 100%;
-  width: 100%
+  height: 100%;
+  margin-bottom: 8rem;
+}
+
+body#contact h2 {
+  display: none;
 }
 
 body#contact footer {
