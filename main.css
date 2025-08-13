@@ -22,9 +22,10 @@ body {
   line-height: 1.65em;
   font-weight: bold;
   background-image: url("images/clouds.png"), url("images/footer.png");
-  background-repeat: repeat-x, repeat-x;
-  background-position-y: 7rem, bottom;
-  background-size: auto, contain;
+  background-repeat: no-repeat;
+  background-position-y: 8rem, 9rem, bottom;
+  background-position-x: center;
+  background-size: 1300px, 1300px, contain;
 }
 
 body#home {
@@ -124,7 +125,7 @@ main {
 }
 
 body#home main {
-  margin: 17rem auto 0;
+  margin: 12rem auto 0;
 }
 
 body.theme-yellow {
