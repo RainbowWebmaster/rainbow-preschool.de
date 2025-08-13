@@ -28,10 +28,10 @@ body {
 }
 
 body#home {
-  background-image: url("images/homepage-banner.png");
-  background-repeat: no-repeat;
-  background-position-y: 10rem;
-  background-size: contain;
+  background-image: url("images/clouds.png"), url("images/homepage-banner.png"), url("images/footer.png");
+  background-repeat: repeat-x, no-repeat, repeat-x;
+  background-position-y: 7rem, 10rem, bottom;
+  background-size: auto, contain, contain;
 }
 
 /* === Header & Navigation === */
@@ -238,6 +238,7 @@ section#welcome {
   background-size: contain;
   border-radius: 1rem;
   width: 34%;
+  height: 40rem;
 }
 
 section#welcome h2 {
@@ -260,6 +261,10 @@ section#uniqueness {
 
 section#uniqueness h2 {
   display: none;
+}
+
+section#uniqueness h3 {
+  margin-top: 0.8em;
 }
 
 section#uniqueness ul {
@@ -288,11 +293,11 @@ section#uniqueness li:nth-of-type(4)::before {
 }
 
 section#uniqueness li:nth-of-type(5)::before {
-  content: url("images/celebrations.png") / "Celebrations icon";
+  content: url("images/icon-celebrations.png") / "Celebrations icon";
 }
 
 section#uniqueness li:nth-of-type(6)::before {
-  content: url("images/library.png") / "Library icon";
+  content: url("images/icon-library.png") / "Library icon";
 }
 
 p {
