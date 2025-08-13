@@ -146,6 +146,12 @@ body#home h1 {
 
 body#home section#hours {
   background-color: #ebbe40;
+  padding: 2rem 1rem;
+  background-image: url("images/orange-cloud.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+  border-radius: 1rem;
 }
 
 body#home section#welcome {
@@ -154,6 +160,33 @@ body#home section#welcome {
 
 section {
   margin-bottom: 2rem;
+}
+
+section#hours h2 {
+  colour: #3a3a3a;
+}
+
+section#hours p {
+  margin-bottom: 0;
+}
+
+section#hours dl {
+  font-size: 1.5rem;
+  line-height: normal;
+  color: #3a3a3a;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: max-content auto;
+  row-gap: 0.5em;
+  column-gap: 1em;
+}
+
+section#hours dt {
+  grid-column: 1;
+}
+
+section#hours dd {
+  grid-column: 2;
 }
 
 section#notices {
