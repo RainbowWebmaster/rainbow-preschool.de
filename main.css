@@ -80,12 +80,17 @@ h4 {
 nav {
   margin: 0 auto;
   max-width: 1300px;
-  padding: 4rem 1rem;
+  padding: 0 1rem;
   background-image: url("images/header-logo.png");
   background-repeat: no-repeat;
   background-size: 9rem;
   background-position: 1rem center;
   font-size: 1.2rem
+}
+
+nav li {
+  text-wrap-mode: nowrap;
+  text-align: right;
 }
 
 nav a {
@@ -95,18 +100,17 @@ nav a {
 nav ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: right;
   gap: 2.3rem;
-}
-
-nav li {
-  margin: auto 0;
+  max-height: 9rem;
 }
 
 nav a {
   text-decoration: none;
   color: #4b4f58;
+  display: block;
+  padding: 4rem 0;
 }
 
 nav li#current-nav-item a {
