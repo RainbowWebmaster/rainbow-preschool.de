@@ -24,7 +24,7 @@ body {
   background-image: url("images/clouds.png"), url("images/footer.png");
   background-repeat: repeat-x, no-repeat;
   background-position-y: 7rem, bottom;
-  background-position-x: 60rem, center;
+  background-position-x: center, center;
   background-size: auto, contain;
 }
 
@@ -32,16 +32,21 @@ body#home {
   background-image: url("images/clouds.png"), url("images/footer.png"), url("images/homepage-banner.png");
   background-repeat: repeat-x, no-repeat, no-repeat;
   background-position-y: 7rem, bottom, 9rem;
-  background-position-x: 60rem, center, center;
+  background-position-x: center, center, center;
   background-size: auto, contain, 1300px;
 }
 
 /* === Header & Navigation === */
 header {
-  background-color: #fff;
   padding: 0 1rem;
-  text-align: center;
   font-weight: normal;
+  background-color: #fff;
+  background-image: url("images/header-logo.png");
+  background-repeat: no-repeat;
+  background-size: 9rem;
+  background-position: 1rem center;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -79,13 +84,8 @@ h4 {
 }
 
 nav {
-  margin: 0 auto;
-  max-width: 1300px;
+  margin-left: auto;
   padding: 4rem 1rem;
-  background-image: url("images/header-logo.png");
-  background-repeat: no-repeat;
-  background-size: 9rem;
-  background-position: 1rem center;
   font-size: 1.2rem
 }
 
@@ -239,7 +239,6 @@ section#welcome {
   background-size: contain;
   border-radius: 1rem;
   width: 34%;
-  height: 40rem;
 }
 
 section#welcome h2 {
