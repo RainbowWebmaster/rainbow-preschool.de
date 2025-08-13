@@ -22,18 +22,18 @@ body {
   line-height: 1.65em;
   font-weight: bold;
   background-image: url("images/clouds.png"), url("images/footer.png");
-  background-repeat: no-repeat;
-  background-position-y: 8rem, bottom;
+  background-repeat: repeat-x, no-repeat;
+  background-position-y: 7rem, bottom;
   background-position-x: center;
-  background-size: 1300px, contain;
+  background-size: auto, contain;
 }
 
 body#home {
   background-image: url("images/clouds.png"), url("images/homepage-banner.png"), url("images/footer.png");
-  background-repeat: no-repeat;
-  background-position-y: 8rem, 9rem, bottom;
+  background-repeat: repeat-x, no-repeat;
+  background-position-y: 6rem, 9rem, bottom;
   background-position-x: center;
-  background-size: 1300px, 1300px, contain;
+  background-size: auto, 1300px, contain;
 }
 
 /* === Header & Navigation === */
