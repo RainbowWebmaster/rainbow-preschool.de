@@ -30,7 +30,9 @@ body {
 
 body#home {
   background-image: url("images/clouds.png"), url("images/footer.png"), url("images/homepage-banner.png");
+  background-repeat: repeat-x, no-repeat, no-repeat;
   background-position-y: 7rem, bottom, 9rem;
+  background-position-x: 60rem, center, center;
   background-size: auto, contain, 1300px;
 }
 
