@@ -120,13 +120,13 @@ nav a:hover {
 
 /* === Main Content === */
 main {
-  padding: 6rem 1rem;
+  padding: 5rem 1rem;
   margin: 0 auto;
   max-width: 1300px;
 }
 
 body#home main {
-  margin: 12rem auto 0;
+  margin: 13rem auto 0;
 }
 
 body.theme-yellow {
