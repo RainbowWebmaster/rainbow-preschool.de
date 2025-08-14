@@ -91,19 +91,6 @@ header nav {
   font-size: 1.2rem
 }
 
-header nav li {
-  text-wrap-mode: nowrap;
-  text-align: right;
-}
-
-header nav li:first-of-type {
-  width: 100%;
-}
-
-header nav a {
-  color: #4b4f58;
-}
-
 header nav ul {
   list-style: none;
   display: flex;
@@ -112,6 +99,15 @@ header nav ul {
   gap: 2.3rem;
   max-height: 9rem;
   padding: 0;
+}
+
+header nav li {
+  text-wrap-mode: nowrap;
+  text-align: right;
+}
+
+header nav li:first-of-type {
+  width: 100%;
 }
 
 header nav a {
@@ -430,11 +426,20 @@ footer nav {
   padding: 0;
 }
 
-footer li {
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2.3rem;
+  padding: 0;
+}
+
+footer nav li {
   text-wrap-mode: nowrap;
 }
 
-footer a {
+footer nav a {
   text-decoration: none;
   color: #fff;
 }
