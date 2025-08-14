@@ -439,6 +439,7 @@ footer nav a {
 
 footer nav a:hover {
   text-decoration: underline;
+  color: #fff;
 }
 
 /* === Responsive === */
