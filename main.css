@@ -125,18 +125,7 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/* === Main content === */
-main {
-  padding: 5rem 0;
-  margin: 0 auto;
-  max-width: 1300px;
-}
-
-body#home main {
-  padding-top: 19rem;
-  padding-bottom: 0;
-}
-
+/* === Themes === */
 body.theme-yellow {
   background-color: #fdfbe6;
 }
@@ -161,8 +150,25 @@ body.theme-green {
   background-color: #f1f5e4;
 }
 
+/* === Main content === */
+main {
+  padding: 5rem 0;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+body#home main {
+  padding-top: 19rem;
+  padding-bottom: 0;
+}
+
 body#home h1 {
   display: none;
+}
+
+body#gallery h3 {
+  text-align: center;
+  margin-top: 1em;
 }
 
 body#gallery main ul {
