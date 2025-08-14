@@ -1,4 +1,4 @@
-/* === Base Reset === */
+/* === Base reset === */
 * {
   margin: 0;
   padding: 0;
@@ -36,13 +36,7 @@ body#home {
   background-size: auto, contain, 1300px;
 }
 
-/* === Header & Navigation === */
-header {
-  background-color: #fff;
-  padding: 0 1rem;
-  font-weight: normal;
-}
-
+/* === Headings === */
 h1 {
   font-size: 2.5rem;
   color: #3a3a3a;
@@ -79,7 +73,14 @@ h4 {
   line-height: 1.3em;
 }
 
-nav {
+/* === Header and navigation === */
+header {
+  background-color: #fff;
+  padding: 0 1rem;
+  font-weight: normal;
+}
+
+header nav {
   margin: 0 auto;
   max-width: 1300px;
   padding: 0 1rem;
@@ -90,20 +91,20 @@ nav {
   font-size: 1.2rem
 }
 
-nav li {
+header nav li {
   text-wrap-mode: nowrap;
   text-align: right;
 }
 
-nav li:first-of-type {
+header nav li:first-of-type {
   width: 100%;
 }
 
-nav a {
+header nav a {
   color: #4b4f58;
 }
 
-nav ul {
+header nav ul {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
@@ -113,22 +114,22 @@ nav ul {
   padding: 0;
 }
 
-nav a {
+header nav a {
   text-decoration: none;
   color: #4b4f58;
   display: block;
   padding: 4rem 0;
 }
 
-nav li#current-nav-item a {
+header nav li#current-nav-item a {
   color: #0170b9;
 }
 
-nav a:hover {
+header nav a:hover {
   text-decoration: underline;
 }
 
-/* === Main Content === */
+/* === Main content === */
 main {
   padding: 5rem 0;
   margin: 0 auto;
@@ -363,6 +364,15 @@ p {
   margin-bottom: 1.5rem;
 }
 
+img#page-logo {
+  margin-bottom: 2.5rem;
+}
+
+address {
+  font-style: normal;
+  line-height: 1.5;
+}
+
 /* === Lists === */
 ul {
   padding-left: 1.5rem;
@@ -398,21 +408,9 @@ a:hover {
   color: #1a5a8f;
 }
 
-img#page-logo {
-  margin-bottom: 2.5rem;
-}
-
-/* === Address Block === */
-address {
-  font-style: normal;
-  line-height: 1.5;
-}
-
 /* === Footer === */
 footer {
   background-color: #3a3a3a;
-  text-align: center;
-  padding: 3rem 2rem;
   font-size: 1rem;
   color: #fff;
   font-weight: normal;
@@ -420,11 +418,29 @@ footer {
   background-position: bottom;
   background-repeat: repeat-x;
   background-size: cover;
+  padding: 0 1rem;
 }
 
-footer p {
-  margin: 0 auto;
-  max-width: 1300px;
+footer nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2.3rem;
+  padding: 0;
+}
+
+footer li {
+  text-wrap-mode: nowrap;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header nav a:hover {
+  text-decoration: underline;
 }
 
 /* === Responsive === */
