@@ -97,7 +97,7 @@ header nav ul {
   flex-wrap: nowrap;
   justify-content: right;
   gap: 2.3rem;
-  max-height: 9rem;
+  max-height: 10rem;
   padding: 0;
 }
 
