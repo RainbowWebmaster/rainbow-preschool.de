@@ -417,6 +417,16 @@ a:hover {
   color: #1a5a8f;
 }
 
+a.skip-link {
+  position: absolute;
+  top: -3em;
+  background: white;
+}
+
+a.skip-link:focus {
+  top: 0;
+}
+
 /* === Footer === */
 footer {
   background-color: #3a3a3a;
