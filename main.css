@@ -134,6 +134,7 @@ main {
 
 body#home main {
   padding-top: 19rem;
+  padding-bottom: 0;
 }
 
 body.theme-yellow {
@@ -264,6 +265,7 @@ section#uniqueness {
   float: left;
   width: 66%;
   padding: 1.2rem;
+  margin-bottom: 0;
 }
 
 section#uniqueness h2 {
