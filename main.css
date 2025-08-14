@@ -165,6 +165,17 @@ body#home h1 {
   display: none;
 }
 
+body#gallery main ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+body#gallery main li {
+  margin-bottom: 0;
+}
+
 body#imprint h2, body#privacy h2, body#imprint h3, body#privacy h3 {
   text-transform: none;
   color: #3a3a3a;
