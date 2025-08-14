@@ -426,7 +426,7 @@ footer nav {
   padding: 0;
 }
 
-header nav ul {
+footer nav ul {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
@@ -444,7 +444,7 @@ footer nav a {
   color: #fff;
 }
 
-header nav a:hover {
+footer nav a:hover {
   text-decoration: underline;
 }
 
