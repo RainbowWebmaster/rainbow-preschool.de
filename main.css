@@ -417,26 +417,19 @@ footer {
   padding: 0 1rem;
 }
 
-footer nav {
-  list-style: none;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 2.3rem;
-  padding: 0;
-}
-
 footer nav ul {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   gap: 2.3rem;
+  max-height: 9rem;
   padding: 0;
 }
 
 footer nav li {
   text-wrap-mode: nowrap;
+  padding: 4rem 0;
 }
 
 footer nav a {
