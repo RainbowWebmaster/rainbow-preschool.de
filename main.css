@@ -78,13 +78,14 @@ nav ul {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
-  gap: 2.3rem;
+  column-gap: 2.3rem;
   padding: 0;
 }
 
 nav li {
   text-wrap-mode: nowrap;
   padding: 4rem 0;
+  margin-bottom: 0;
 }
 
 header {
@@ -475,9 +476,12 @@ footer nav a:hover {
 }
 
 @media (max-width: 1050px) {
+  body#home main {
+    padding-top: 33%;
+  }
+  
   nav ul {
-    flex-direction: column;
-    gap: 0;
+    column-gap: 0;
   }
 
   nav li {
@@ -485,11 +489,19 @@ footer nav a:hover {
   }
 
   header nav ul {
-    align-items: end;
+    flex-wrap: wrap;
+    margin-left: auto;
+    max-width: 90%
+  }
+
+  header nav li:first-of-type {
+    width: auto;
   }
 
   footer nav ul {
+    flex-direction: column;
     align-items: center;
+    min-height: 10rem;
   }
 }
 
@@ -503,15 +515,21 @@ footer nav a:hover {
     width: 100%;
   }
 
-  sectio#uniqueness ul, secction#hours dl {
+  section#uniqueness li {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  section#uniqueness ul {
+    display: block;
+  }
+
+  section#hours dl {
     display: block;
   }
 
   section#hours dd {
     margin-left: 1em;
-  }
-
-  section#uniqueness li {
-    margin-bottom: 2rem;
   }
 }
