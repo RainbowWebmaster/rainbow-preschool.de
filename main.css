@@ -103,11 +103,11 @@ header nav {
   background-size: 9rem;
   background-position: 1rem center;
   font-size: 1.2rem
+  height: 10rem;
 }
 
 header nav ul {
   justify-content: right;
-  max-height: 10rem;
 }
 
 header nav li {
@@ -479,10 +479,6 @@ footer nav a:hover {
   body#home main {
     padding-top: 33%;
   }
-  
-  nav ul {
-    column-gap: 0;
-  }
 
   nav li {
     padding: 0;
@@ -491,7 +487,7 @@ footer nav a:hover {
   header nav ul {
     flex-wrap: wrap;
     margin-left: auto;
-    max-width: 90%
+    max-width: 80%
   }
 
   header nav li:first-of-type {
