@@ -472,10 +472,6 @@ footer nav a:hover {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
   }
-
-  body#home {
-    background-size: auto, contain, 140%;
-  }
 }
 
 @media (max-width: 1050px) {
@@ -497,7 +493,11 @@ footer nav a:hover {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 866px) {
+  body#home {
+    background-size: auto, contain, 150%;
+  }
+  
   section#welcome, section#uniqueness {
     float: none;
     width: 100%;
