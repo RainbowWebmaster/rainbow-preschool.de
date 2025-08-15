@@ -74,6 +74,19 @@ h4 {
 }
 
 /* === Header and navigation === */
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2.3rem;
+  padding: 0;
+}
+
+nav li {
+  text-wrap-mode: nowrap;
+  padding: 4rem 0;
+}
+
 header {
   background-color: #fff;
   padding: 0 1rem;
@@ -92,19 +105,12 @@ header nav {
 }
 
 header nav ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: nowrap;
   justify-content: right;
-  gap: 2.3rem;
   max-height: 10rem;
-  padding: 0;
 }
 
 header nav li {
-  text-wrap-mode: nowrap;
   text-align: right;
-  padding: 4rem 0;
 }
 
 header nav li:first-of-type {
@@ -447,17 +453,7 @@ footer {
 }
 
 footer nav ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
-  gap: 2.3rem;
-  padding: 0;
-}
-
-footer nav li {
-  text-wrap-mode: nowrap;
-  padding: 4rem 0;
 }
 
 footer nav a {
