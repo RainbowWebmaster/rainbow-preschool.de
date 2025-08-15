@@ -26,6 +26,7 @@ body {
   background-position-y: 7rem, bottom;
   background-position-x: center, center;
   background-size: auto, contain;
+  min-width: 300px;
 }
 
 body#home {
@@ -102,7 +103,7 @@ header nav {
   background-repeat: no-repeat;
   background-size: 9rem;
   background-position: 1rem center;
-  font-size: 1.2rem
+  font-size: 1.2rem;
   height: 10rem;
 }
 
