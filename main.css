@@ -104,6 +104,7 @@ header nav ul {
 header nav li {
   text-wrap-mode: nowrap;
   text-align: right;
+  padding: 4rem 0;
 }
 
 header nav li:first-of-type {
@@ -114,7 +115,6 @@ header nav a {
   text-decoration: none;
   color: #4b4f58;
   display: block;
-  padding: 4rem 0;
 }
 
 header nav li#current-nav-item a {
@@ -471,9 +471,40 @@ footer nav a:hover {
 }
 
 /* === Responsive === */
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
+  main {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+@media (max-width: 1050px) {
   nav ul {
     flex-direction: column;
     align-items: center;
+    gap: 0;
+  }
+
+  nav li {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  section#welcome, section#uniqueness {
+    float: none;
+    width: 100%;
+  }
+
+  sectio#uniqueness ul, secction#hours dl {
+    display: block;
+  }
+
+  section#hours dd {
+    margin-left: 1em;
+  }
+
+  section#uniqueness li {
+    margin-bottom: 2rem;
   }
 }
