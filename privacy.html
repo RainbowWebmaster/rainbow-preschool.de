@@ -8,12 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
 </head>
 <body id="privacy" class="theme-pink">
   <a href="#content" class="skip-link">Skip to main content</a>
   <header>
     <nav>
-      <ul>
+      <a id="hamburger-menu" href="javascript:void(0);" onclick="toggleHamburgerMenu()" title="Toggle navigation menu"><i></i></a>
+      <ul id="header-navigation-links">
         <li><a href="./">Home</a></li>
         <li><a href="about-us">About Us</a></li>
         <li><a href="about-montessori">About Montessori</a></li>
