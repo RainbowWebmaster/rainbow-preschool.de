@@ -513,6 +513,7 @@ footer nav a:hover {
     right: 1rem;
     width: 15rem;
     height: auto;
+    border: 0.07rem solid #999;
   }
 
   header nav.hamburger-menu-expanded {
