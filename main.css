@@ -142,6 +142,7 @@ a#hamburger-menu {
   position: absolute;
   top: 1rem;
   right: 0;
+  text-align: right;
 }
 
 /* === Themes === */
@@ -517,12 +518,16 @@ footer nav a:hover {
     width: 30%;
     top: 5rem;
     right: -1rem;
-    padding-right: 1rem;
+    padding-bottom: 1rem;
     margin-right: 1rem;
     border: 0.1rem solid;
     border-top: none;
   }
 
+  header nav li:first-of-type {
+    width: auto;
+  }
+  
   a#hamburger-menu {
     display: block;
   }
