@@ -132,7 +132,7 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-a#hamburger-menu {
+button#hamburger-menu {
   display: none;
 }
 
@@ -532,19 +532,14 @@ footer nav a:hover {
     width: auto;
   }
   
-  a#hamburger-menu {
+  button#hamburger-menu {
     display: block;
     font-size: 4rem;
     padding: 0.5rem 1rem 1rem;
     text-align: right;
   }
 
-  a#hamburger-menu:hover {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  a#hamburger-menu i:before {
+  button#hamburger-menu::before {
     content: "\11054";
   }
 
