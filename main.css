@@ -80,7 +80,6 @@ nav ul {
   display: flex;
   flex-wrap: nowrap;
   column-gap: 2.3rem;
-  padding: 0;
 }
 
 nav li {
@@ -314,7 +313,7 @@ section#uniqueness ul {
   grid-template-rows: repeat(2, auto);
   gap: 1rem;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
 }
 
 section#uniqueness li:nth-of-type(1)::before {
@@ -399,7 +398,7 @@ address {
 }
 
 /* === Lists === */
-ul {
+main ul {
   padding-left: 1.5rem;
 }
 
@@ -408,7 +407,8 @@ ul#teachers-list {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   list-style: none;
-  padding: 1rem 0;
+  margin: 2rem;
+  padding-left: 0;
   text-align: center;
 }
 
@@ -479,6 +479,10 @@ footer nav a:hover {
 }
 
 @media (max-width: 1050px) {
+  main {
+    padding-bottom: 0;
+  }
+  
   body#home main {
     padding-top: 33%;
   }
