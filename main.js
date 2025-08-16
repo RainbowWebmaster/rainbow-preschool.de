@@ -1,7 +1,7 @@
 function toggleHamburgerMenu() {
   var headerNavigationLinksElement = document.getElementById('header-navigation-links');
 
-  if (headerNavigationLinksElement && headerNavigationLinksElement.parentNode && headerNavigationLinksElement === event.target) {
+  if (headerNavigationLinksElement && headerNavigationLinksElement.parentNode && headerNavigationLinksElement.parentNode === event.target.parentNode) {
     headerNavigationLinksElement.parentNode.classList.toggle('hamburger-menu-expanded');
   }
 }
