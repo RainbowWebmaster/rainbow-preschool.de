@@ -163,6 +163,7 @@ main {
   padding: 5rem 0;
   margin: 0 auto;
   max-width: 1300px;
+  overflow-wrap: break-word;
 }
 
 body#home main {
@@ -525,6 +526,7 @@ footer nav a:hover {
 @media (max-width: 650px) {
   section#uniqueness ul, ul#teachers-list {
     display: block;
+    text-align: inherit;
   }
 
   section#hours dl {
