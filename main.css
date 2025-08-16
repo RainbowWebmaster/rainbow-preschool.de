@@ -486,10 +486,6 @@ footer nav a:hover {
   main {
     padding-bottom: 0;
   }
-  
-  body#home main {
-    padding-top: 33%;
-  }
 
   nav li {
     padding: 0;
@@ -513,12 +509,12 @@ footer nav a:hover {
     right: 1rem;
     width: 15rem;
     height: auto;
-    border: 0.07rem solid #999;
   }
 
   header nav.hamburger-menu-expanded {
     background-color: #ccc;
     box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    border: 0.07rem solid #999;
   }
   
   header nav ul {
@@ -557,6 +553,10 @@ footer nav a:hover {
 @media (max-width: 866px) {
   body#home {
     background-size: auto, contain, 150%;
+  }
+  
+  body#home main {
+    padding-top: 33%;
   }
   
   section#welcome, section#uniqueness, section#contact-address, section#location-map {
