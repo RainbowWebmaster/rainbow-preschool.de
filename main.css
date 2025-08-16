@@ -500,6 +500,7 @@ footer nav a:hover {
     background-repeat: no-repeat;
     background-size: 9rem;
     background-position: 2rem center;
+    height: 10rem;
   }
 
   header nav {
@@ -507,8 +508,11 @@ footer nav a:hover {
     margin-right: 0;
     border-radius: 0.4rem;
     background-image: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 15rem;
     height: auto;
-    max-width: 30%;
   }
 
   header nav.hamburger-menu-expanded {
