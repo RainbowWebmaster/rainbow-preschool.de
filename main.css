@@ -539,6 +539,10 @@ footer nav a:hover {
     text-align: right;
   }
 
+  a#hamburger-menu i:before {
+    content: "\11054";
+  }
+
   footer {
     background-size: contain;
   }
