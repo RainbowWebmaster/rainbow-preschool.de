@@ -79,7 +79,7 @@ nav ul {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
-  column-gap: 2.3rem;
+  column-gap: 2rem;
 }
 
 nav li {
@@ -97,7 +97,6 @@ header {
 header nav {
   margin: 0 auto;
   max-width: 1300px;
-  padding: 0 1rem;
   background-image: url("images/header-logo.png");
   background-repeat: no-repeat;
   background-size: 9rem;
@@ -478,7 +477,7 @@ footer nav a:hover {
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1000px) {
   main {
     padding-bottom: 0;
   }
@@ -501,6 +500,10 @@ footer nav a:hover {
     width: auto;
   }
 
+  footer {
+    background-size: contain;
+  }
+  
   footer nav ul {
     flex-direction: column;
     align-items: center;
