@@ -539,6 +539,11 @@ footer nav a:hover {
     text-align: right;
   }
 
+  a#hamburger-menu:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
   a#hamburger-menu i:before {
     content: "\11054";
   }
